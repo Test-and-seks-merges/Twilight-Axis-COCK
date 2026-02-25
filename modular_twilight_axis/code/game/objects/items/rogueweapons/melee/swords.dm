@@ -60,11 +60,8 @@
 	user.update_a_intents()
 	update_icon()
 
-/datum/intent/sword/strike/bad
-	damfactor = 0.5
-
 /datum/intent/sword/thrust/blunt
-	penfactor = BLUNT_LOWER_PENFACTOR
+	penfactor = BLUNT_NO_PENFACTOR
 
 /datum/intent/sword/strike
 	penfactor = BLUNT_LOWER_PENFACTOR
