@@ -50,6 +50,7 @@
 		TRAIT_INQUISITION,
 		TRAIT_PERFECT_TRACKER,
 		TRAIT_PURITAN,
+		TRAIT_ARTILLERY_EXPERT,
 		)
 	subclass_stats = list(
 		STATKEY_CON = 1,
@@ -74,7 +75,9 @@
 		/datum/skill/craft/sewing = SKILL_LEVEL_APPRENTICE,
 	)
 	subclass_stashed_items = list(
-		"Tome of Psydon" = /obj/item/book/rogue/bibble/psy
+		"Tome of Psydon" = /obj/item/book/rogue/bibble/psy,
+		"Branding letters" = /obj/item/branding_letters,
+		"Branding iron" = /obj/item/branding_iron
 	)
 
 /datum/outfit/job/roguetown/inquisitor/inspector/pre_equip(mob/living/carbon/human/H)
@@ -175,7 +178,9 @@
 		/datum/skill/misc/tracking = SKILL_LEVEL_MASTER,
 	)
 	subclass_stashed_items = list(
-		"Tome of Psydon" = /obj/item/book/rogue/bibble/psy
+		"Tome of Psydon" = /obj/item/book/rogue/bibble/psy,
+		"Branding letters" = /obj/item/branding_letters,
+		"Branding iron" = /obj/item/branding_iron
 	)
 
 /datum/outfit/job/roguetown/inquisitor/ordinator/pre_equip(mob/living/carbon/human/H)
