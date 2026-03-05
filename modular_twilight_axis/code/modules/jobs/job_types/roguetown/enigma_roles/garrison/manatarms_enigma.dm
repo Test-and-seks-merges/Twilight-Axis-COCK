@@ -231,10 +231,12 @@
 				beltr = /obj/item/quiver/twilight_bullet/lead
 				r_hand = /obj/item/gun/ballistic/twilight_firearm/arquebus_pistol
 				l_hand = /obj/item/twilight_powderflask
+				ADD_TRAIT(H, TRAIT_FIREARMS_MARKSMAN, TRAIT_GENERIC)
 			if("Arquebus Rifle")
 				beltr = /obj/item/quiver/twilight_bullet/lead
 				r_hand = /obj/item/gun/ballistic/twilight_firearm/arquebus/bayonet
 				l_hand = /obj/item/twilight_powderflask
+				ADD_TRAIT(H, TRAIT_FIREARMS_MARKSMAN, TRAIT_GENERIC)
 		switch(armor_choice)
 			if("Maille Set(Medium Armor)")
 				armor = /obj/item/clothing/suit/roguetown/armor/plate/scale
